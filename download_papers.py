@@ -40,7 +40,7 @@ def fetch_all_papers():
 def save_to_file(papers, count):
     """Save paper data to a JSON file."""
     paperlist = {"notes": papers, "count": count}
-    with open("paperlist.json", "w") as f:
+    with open("raw_paperlist.json", "w") as f:
         json.dump(paperlist, f, indent=4)
 
 if __name__ == "__main__":
