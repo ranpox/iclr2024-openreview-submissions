@@ -8,6 +8,12 @@ This repository contains the downloading and parsing code for the ICLR 2024 Open
 
 ## Visualizations
 
+### Interactive Visualization [[Link](https://atlas.nomic.ai/map/9ec8512c-cec0-4b1b-b7f8-14abbad52e8a/20c9a572-e9b9-4188-89f4-eeb9005353e3)]
+
+You can use the interactive visualization to explore the ICLR 2024 submissions. The visualization is powered by [Nomic Atlas](https://atlas.nomic.ai/).
+
+[![Nomic Atlas Interactive Visualization](assets/nomic_atlas.png)](https://atlas.nomic.ai/map/9ec8512c-cec0-4b1b-b7f8-14abbad52e8a/20c9a572-e9b9-4188-89f4-eeb9005353e3)
+
 ### Top 50 Keywords Bar Chart
 ![Top 50 Keywords](assets/top_keywords_bar.png)
 
