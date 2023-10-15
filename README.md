@@ -4,3 +4,7 @@ This repository contains the downloading and parsing code for the ICLR 2024 Open
 
 ## Data
 - [`raw_paperlist.json`](https://github.com/ranpox/iclr2024-openreview-submissions/releases/download/v0.1/raw_paperlist.json): The raw data of the ICLR 2024 paper list.
+
+
+## Visualization
+[](!assets/top_keywords.png)

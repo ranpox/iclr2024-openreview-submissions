@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 from tqdm import tqdm
 
 BASE_URL = "https://api2.openreview.net/notes?content.venueid=ICLR.cc%2F2024%2FConference%2FSubmission&details=replyCount%2Cinvitation%2Coriginal&domain=ICLR.cc%2F2024%2FConference"
@@ -43,6 +44,14 @@ def save_to_file(papers, count):
     with open("raw_paperlist.json", "w") as f:
         json.dump(paperlist, f, indent=4)
 
+def convert_to_csv():
+    df = pd.read_json("raw_paperlist.json")
+    df = pd.json_normalize(df["notes"])
+    filtered_df = df[["id", "content.title.value", "content.abstract.value", "content.primary_area.value", "content.keywords.value", "content.TLDR.value"]]
+    filtered_df.columns = ["id", "title", "abstract", "primary_area", "keywords", "tldr"]
+    filtered_df.to_csv("paperlist.csv", index=False)
+
 if __name__ == "__main__":
     papers, count = fetch_all_papers()
     save_to_file(papers, count)
+    convert_to_csv()
