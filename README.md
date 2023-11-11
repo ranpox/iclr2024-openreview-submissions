@@ -10,6 +10,11 @@ This repository contains the downloading and parsing code for the ICLR 2024 Open
 
 ## Visualizations
 
+### Rating Table[[Link](https://huggingface.co/spaces/ranpox/iclr2024-submissions)]
+Gradio Demo: [https://huggingface.co/spaces/ranpox/iclr2024-submissions](https://huggingface.co/spaces/ranpox/iclr2024-submissions)
+
+![Gradio Demo](assets/gradio.png)
+
 ### Interactive Visualization [[Link](https://atlas.nomic.ai/map/9ec8512c-cec0-4b1b-b7f8-14abbad52e8a/20c9a572-e9b9-4188-89f4-eeb9005353e3)]
 
 You can use the interactive visualization to explore the ICLR 2024 submissions. The visualization is powered by [Nomic Atlas](https://atlas.nomic.ai/).
