@@ -16,6 +16,12 @@ You can use the interactive visualization to explore the ICLR 2024 submissions. 
 
 [![Nomic Atlas Interactive Visualization](assets/nomic_atlas.png)](https://atlas.nomic.ai/map/9ec8512c-cec0-4b1b-b7f8-14abbad52e8a/20c9a572-e9b9-4188-89f4-eeb9005353e3)
 
+### Average Score Distribution
+![Average Score Distribution](assets/avg_dist.png)
+
+### Average Score Cumulative Distribution
+![Average Score Cumulative Distribution](./assets/avg_cumulative_dist.png)
+
 ### Top 50 Keywords Bar Chart
 ![Top 50 Keywords](assets/top_keywords_bar.png)
 
