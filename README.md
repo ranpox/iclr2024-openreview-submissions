@@ -4,7 +4,8 @@ This repository contains the downloading and parsing code for the ICLR 2024 Open
 
 ## Data
 - [`raw_paperlist.json`](https://github.com/ranpox/iclr2024-openreview-submissions/releases/download/v0.1/raw_paperlist.json): The raw data of the ICLR 2024 paper list.
-- [`paperlist.csv`](./data/paperlist.csv): The parsed ICLR 2024 CSV data contains `id`, `title`, `abstract`, `primary_area`, `keywords`, and `tldr`. Note: You can use ChatGPT code interpreter to analyze this file.
+- [`iclr2024_papers.csv`](data/iclr2024_papers.csv): The parsed ICLR 2024 CSV data contains `id`, `title`, `abstract`, `primary_area`, `keywords`, and `tldr`. Note: You can use ChatGPT code interpreter to analyze this file.
+- [`iclr2024_reviews_20231110.csv`](./data/iclr2024_reviews_20231110.csv): The parsed ICLR 2024 reviews CSV data contains ID, Title, Average Score, Standard Deviation, and Individual Scores. The list is sorted by the average score and the standard deviation.
 
 ## Visualizations
 

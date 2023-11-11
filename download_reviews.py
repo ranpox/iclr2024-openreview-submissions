@@ -14,7 +14,6 @@ def fetch_data(paper_id, session):
 
 if __name__ == "__main__":
     papers = pd.read_csv("paperlist.csv")    
-    # papers = papers.head(10)
     with open("raw_paper_reviews.jsonl", "w") as f, requests.Session() as session:
         with ThreadPoolExecutor(max_workers=4) as executor:
             futures = [executor.submit(fetch_data, paper.id, session) for paper in papers.itertuples()]
